@@ -11,9 +11,10 @@ class UnreadView : View("The WTF Machine") {
     override val root = vbox {
         prefHeight = 600.0
         borderpane {
-            left = label("Unread")
-            right = label("🔁")
-            addClass(WtfStyle.pageTitle)
+            left = label("Unread") {
+                addClass(WtfStyle.pageTitle)
+            }
+            right = button("🔁") // todo refreshing
         }
         separator(orientation = Orientation.HORIZONTAL)
         scrollpane {

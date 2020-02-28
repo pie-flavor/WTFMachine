@@ -44,7 +44,7 @@ class LoginView: View() {
                         LoginType.PASSWORD -> Client.createAndLogin(username.value, password.value)
                         LoginType.SESSION -> Client.createAndConnect(username.value, password.value)
                     }
-                    replaceWith<UnreadView>(sizeToScene = true)
+                    replaceWith<Navigator>(sizeToScene = true)
                 } catch (e: Exception) {
                     ExceptionAlert(e).showAndWait()
                 }
