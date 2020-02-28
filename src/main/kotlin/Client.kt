@@ -1,4 +1,4 @@
-package wtfviewer
+package wtfmachine
 
 import io.socket.client.IO
 import io.socket.client.Socket
@@ -79,7 +79,6 @@ class Client private constructor(val username: String, val http: OkHttpClient, v
         val unread = http.newCall(request { url("$url/api/unread") }).execute().assumeSuccess().body()!!.use {
             it.string()
         }.replace(configRegex, "") // FUCK YOU
-        Clipboard.getSystemClipboard().putString(unread)
         return json.parse(UnreadList.serializer(), unread)
     }
 

@@ -1,6 +1,6 @@
 @file:UseSerializers(InstantSerializer::class, IntBoolSerializer::class, ColorSerializer::class)
 
-package wtfviewer
+package wtfmachine
 
 import javafx.scene.paint.Color
 import kotlinx.serialization.SerialName

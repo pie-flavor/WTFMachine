@@ -27,5 +27,5 @@ tasks.withType<KotlinCompile> {
 }
 
 application {
-    mainClassName = "wtfviewer.WtfApp"
+    mainClassName = "wtfmachine.WtfApp"
 }

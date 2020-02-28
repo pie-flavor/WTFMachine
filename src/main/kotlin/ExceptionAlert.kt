@@ -1,4 +1,4 @@
-package wtfviewer
+package wtfmachine
 
 import javafx.scene.control.Alert
 import javafx.scene.control.TextArea

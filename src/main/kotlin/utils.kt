@@ -1,4 +1,4 @@
-package wtfviewer
+package wtfmachine
 
 import javafx.collections.ObservableList
 import javafx.scene.control.MultipleSelectionModel

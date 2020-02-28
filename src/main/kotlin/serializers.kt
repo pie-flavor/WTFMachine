@@ -1,4 +1,4 @@
-package wtfviewer
+package wtfmachine
 
 import javafx.scene.paint.Color
 import kotlinx.serialization.*

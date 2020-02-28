@@ -1,4 +1,4 @@
-package wtfviewer
+package wtfmachine
 
 import javafx.scene.image.Image
 import javafx.stage.Stage

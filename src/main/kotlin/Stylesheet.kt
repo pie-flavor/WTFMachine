@@ -1,4 +1,4 @@
-package wtfviewer
+package wtfmachine
 
 import tornadofx.*
 

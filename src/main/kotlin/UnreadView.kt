@@ -1,4 +1,4 @@
-package wtfviewer
+package wtfmachine
 
 import javafx.geometry.Orientation
 import javafx.scene.layout.Region

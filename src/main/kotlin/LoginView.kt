@@ -1,4 +1,4 @@
-package wtfviewer
+package wtfmachine
 
 import javafx.beans.property.SimpleObjectProperty
 import javafx.beans.property.SimpleStringProperty
